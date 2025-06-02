@@ -1,0 +1,13 @@
+fn main() {
+    // Allocate a boxed slice of 30 elements (on the heap)
+    let mut list = vec![0; 30].into_boxed_slice();
+
+    // Assign values and print
+    for (i, item) in list.iter_mut().enumerate() {
+        *item = i as i32;
+        println!("{} is  added to list", i);
+    }
+
+    println!("Garbage Collection Going to be run)");
+    // Memory is automatically freed when `list` goes out of scope
+}
