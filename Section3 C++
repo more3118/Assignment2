@@ -1,0 +1,19 @@
+#include <iostream>
+
+int main() {
+    // Dynamically allocate an array of 30 integers
+    int* list = new int[30];
+
+    // Add elements to the list (just assigning values to the array)
+    for (int i = 0; i < 30; ++i) {
+        list[i] = i;
+        std::cout << i << " added to list" << std::endl;
+    }
+
+    std::cout << "Deleting Objects" << std::endl;
+
+    // Manually deallocate memory
+    delete[] list;
+
+    return 0;
+}
