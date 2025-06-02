@@ -1,0 +1,4 @@
+# Online Python 3.12.3 Compiler (Interpreter)
+firstname="Shreyas"
+lastname="More"
+print(firstname+" "+lastname)
