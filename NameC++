@@ -1,0 +1,14 @@
+/* Online C++ Compiler and Editor */
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   std::string firstName = "Shreyas";
+   std::string lastName = "More";
+   
+   cout << firstName+" "+lastName << endl; 
+   
+   return 0;
+}
